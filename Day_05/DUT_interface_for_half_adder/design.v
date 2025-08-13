@@ -1,4 +1,4 @@
-module fadd(
+module hadd(
   input a,b,
   output sum,carry);
   assign sum= a^b;
