@@ -7,7 +7,7 @@ endinterface
   
 module tb;
   inter aif();
-  fadd u1 (.a(aif.a),.b(aif.b),.sum(aif.sum),.carry(aif.carry));
+  hadd u1 (.a(aif.a),.b(aif.b),.sum(aif.sum),.carry(aif.carry));
   initial begin
     aif.a=0; aif.b=0; #10;
     aif.a=0; aif.b=1; #10;
