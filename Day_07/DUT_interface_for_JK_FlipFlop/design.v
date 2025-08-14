@@ -1,5 +1,5 @@
 // Code your design here
-module dff(
+module jkff(
   input j,k,clk,rst,
   output reg q);
   always@(posedge clk or negedge rst)begin
