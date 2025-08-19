@@ -1,6 +1,0 @@
- KERNEL: generator test cases : a=1, b=0
- KERNEL: generator test cases : a=1, b=1
-KERNEL: Driver applied test cases : a=0,b=0 and output from dut sum =0, carry=0
-KERNEL: Driver applied test cases : a=0,b=1 and output from dut sum =1, carry=0
- KERNEL: Driver applied test cases : a=1,b=0 and output from dut sum =1, carry=0
- KERNEL: Driver applied test cases : a=1,b=1 and output from dut sum =0, carry=1
