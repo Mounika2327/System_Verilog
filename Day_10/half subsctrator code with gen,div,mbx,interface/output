@@ -1,0 +1,8 @@
+generator test cases : A=0,B=0
+# KERNEL: generator test cases : A=0,B=1
+# KERNEL: generator test cases : A=1,B=0
+# KERNEL: generator test cases : A=1,B=1
+# KERNEL: driver applied test cases : A=0,B=0 and output fromm dut DIFFERENCE=0,BORROW=0
+# KERNEL: driver applied test cases : A=0,B=1 and output fromm dut DIFFERENCE=1,BORROW=1
+# KERNEL: driver applied test cases : A=1,B=0 and output fromm dut DIFFERENCE=1,BORROW=0
+# KERNEL: driver applied test cases : A=1,B=1 and output fromm dut DIFFERENCE=0,BORROW=0
