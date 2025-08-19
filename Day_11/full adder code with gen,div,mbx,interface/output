@@ -1,0 +1,16 @@
+generator test cases : a=0, b=0 c=0
+ generator test cases : a=0, b=0 c=1
+ generator test cases : a=0, b=1 c=0
+ generator test cases : a=0, b=1 c=1
+ generator test cases : a=1, b=0 c=0
+ generator test cases : a=1, b=0 c=1
+ generator test cases : a=1, b=1 c=0
+ generator test cases : a=1, b=1 c=1
+ Driver applied test cases : a=0,b=0 c=0 and output from dut sum =0, carry=0
+ Driver applied test cases : a=0,b=0 c=1 and output from dut sum =1, carry=0
+ Driver applied test cases : a=0,b=1 c=0 and output from dut sum =1, carry=0
+ Driver applied test cases : a=0,b=1 c=1 and output from dut sum =0, carry=1
+ Driver applied test cases : a=1,b=0 c=0 and output from dut sum =1, carry=0
+ Driver applied test cases : a=1,b=0 c=1 and output from dut sum =0, carry=1
+ Driver applied test cases : a=1,b=1 c=0 and output from dut sum =0, carry=1
+ Driver applied test cases : a=1,b=1 c=1 and output from dut sum =1, carry=1
