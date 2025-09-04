@@ -1,9 +1,10 @@
+
 class generator;
   mailbox mbx;
   bit a;
   bit b;
   bit c;
- 
+
   
   task run();
     for( int i=0;i<8;i++)begin
@@ -21,21 +22,21 @@ class driver;
     bit [2:0]temp;
     bit a,b;
     forever begin
-     
+      #1;
     mbx.get(temp);
       vif.a=temp[2];
       vif.b=temp[1];
       vif.c=temp[0];
       
     #10;
-      $display("Driver applied test cases : a=%0b,b=%0b c=%0b and output from dut sum =%0b, carry=%0b",vif.a,vif.b,vif.c,vif.sum,vif.carry);
+      $display("Driver applied test cases : a=%0b,b=%0b c=%0b and output from dut difference =%0b, borrow=%0b",vif.a,vif.b,vif.c,vif.diff,vif.borw);
     end
   endtask
 endclass
 
 module tb;
 
-  fa u1(aif.a,aif.b,aif.c,aif.sum,aif.carry);
+  fs u1(aif.a,aif.b,aif.c,aif.diff,aif.borw);
   inter aif();
   generator gen;
   mailbox mbx;
