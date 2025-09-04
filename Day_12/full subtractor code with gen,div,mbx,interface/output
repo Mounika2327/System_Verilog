@@ -1,0 +1,16 @@
+generator test cases : a=0, b=0 c=0
+# KERNEL: generator test cases : a=0, b=0 c=1
+# KERNEL: generator test cases : a=0, b=1 c=0
+# KERNEL: generator test cases : a=0, b=1 c=1
+# KERNEL: generator test cases : a=1, b=0 c=0
+# KERNEL: generator test cases : a=1, b=0 c=1
+# KERNEL: generator test cases : a=1, b=1 c=0
+# KERNEL: generator test cases : a=1, b=1 c=1
+# KERNEL: Driver applied test cases : a=0,b=0 c=0 and output from dut difference =0, borrow=0
+# KERNEL: Driver applied test cases : a=0,b=0 c=1 and output from dut difference =1, borrow=1
+# KERNEL: Driver applied test cases : a=0,b=1 c=0 and output from dut difference =1, borrow=1
+# KERNEL: Driver applied test cases : a=0,b=1 c=1 and output from dut difference =0, borrow=1
+# KERNEL: Driver applied test cases : a=1,b=0 c=0 and output from dut difference =1, borrow=0
+# KERNEL: Driver applied test cases : a=1,b=0 c=1 and output from dut difference =0, borrow=0
+# KERNEL: Driver applied test cases : a=1,b=1 c=0 and output from dut difference =0, borrow=0
+# KERNEL: Driver applied test cases : a=1,b=1 c=1 and output from dut difference =1, borrow=1
