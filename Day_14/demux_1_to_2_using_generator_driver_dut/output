@@ -1,0 +1,8 @@
+# KERNEL: GENERATOR: sel=0, a=0
+# KERNEL: GENERATOR: sel=0, a=1
+# KERNEL: GENERATOR: sel=1, a=0
+# KERNEL: GENERATOR: sel=1, a=1
+# KERNEL: DRIVER: a=0, sel=0 => y0=0,y1=0
+# KERNEL: DRIVER: a=1, sel=0 => y0=1,y1=0
+# KERNEL: DRIVER: a=0, sel=1 => y0=0,y1=0
+# KERNEL: DRIVER: a=1, sel=1 => y0=0,y1=1
