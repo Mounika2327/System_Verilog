@@ -1,0 +1,9 @@
+xcelium> run
+GENERATOR: a=1
+GENERATOR: a=10
+GENERATOR: a=100
+GENERATOR: a=1000
+DRIVER: a=1 => y=0
+DRIVER: a=10 => y=1
+DRIVER: a=100 => y=10
+DRIVER: a=1000 => y=11
