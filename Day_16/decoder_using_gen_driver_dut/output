@@ -1,0 +1,8 @@
+GENERATOR: a=0
+# GENERATOR: a=1
+# GENERATOR: a=10
+# GENERATOR: a=11
+# DRIVER: a=0 => y=1
+# DRIVER: a=1 => y=10
+# DRIVER: a=10 => y=100
+# DRIVER: a=11 => y=1000
